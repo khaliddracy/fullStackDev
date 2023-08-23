@@ -1,0 +1,21 @@
+.b{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(to top left,blue,green);
+}
+
+.a{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+background-image: radial-gradient(circle,red 5%,blue,yellow);
+}
+
+.c{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    background-image: conic-gradient(60,red,green)
+}
+

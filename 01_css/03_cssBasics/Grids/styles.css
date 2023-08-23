@@ -1,0 +1,46 @@
+.container{
+    height: 700px;
+   
+     border: 1px solid red;
+     background-color: yellow;
+     display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(3,1fr);
+
+grid-template-areas: 
+"hd hd hd hd"
+"sd content content ad"
+"ft content content ad"
+;
+
+
+}
+
+.box{
+    border: 1px solid blue;
+    background-color: aqua;
+    /* height: 50px;
+    width: 70px; */
+}
+
+#box1{
+    grid-area: hd;
+}
+#box2{
+    grid-area: sd;
+}
+#box3
+{
+    grid-area: content;
+}
+
+#box4{
+    grid-area: ad;
+}
+
+#box5{
+    grid-area: ft;
+}
+
+
+
